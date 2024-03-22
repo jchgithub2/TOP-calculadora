@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid #514949;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ca5c5c;
+    border-radius: 20px;
+}
+.calculator input[type="button"] {
+    width: 70px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.calculator input[type="text"] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: right;
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#restar {
+    background-color: rgb(80, 240, 208);
+    color: #ca5c5c;
+    font-size: 30px;
+}
+#sumar {
+    background-color: rgb(145, 255, 0);
+    color: #ca5c5c;
+    font-size: 30px;
+}
+#dividir {
+    background-color: rgb(255, 191, 0);
+    color: #ca5c5c;
+    font-size: 30px;
+}
+#multiplicar {
+    background-color: rgba(152, 34, 242, 0.858);
+    color: #ca5c5c;
+    font-size: 30px;
+}
+#igual {
+    background-color: rgb(246, 20, 125);
+    color: white;
+    font-size: 30px;
+}
+#limpiar {
+    background-color: rgb(49, 207, 144);
+    color: white;
+    font-size: 30px;
+}
+#retrocede {
+    background-color: rgb(49, 207, 144);
+    color: white;
+    font-size: 30px;
+}
